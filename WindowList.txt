@@ -1,0 +1,21 @@
+Window#		DT  Lft  Top  Wdth Hgth  Name
+
+0x04804252 -1   0    54   1920 1053  Desktop
+0x0480424e -1   3840 0    1920 1053  Desktop
+
+0x06400010  0   79   85   1767 1027  Dashboard | Strava - Mozilla Firefox
+0x03600010  0   1946 111  1903 974   Inbox - Mozilla Thunderbird
+0x06e005c7  0   2195 259  1589 689   Finances.gnucash - Checking - GnuCash
+
+0x05010fd0  1   391  550  872  387   eric@eric-NUC ~
+0x05011021  1   2513 239  1032 717   eric@eric-NUC ~
+
+0x02200007  2   2849 269  528  340   Transmission
+
+0x0720000a  3   2012 83   1803 924   Home
+
+Terminal fullscreen:
+
+0x05010fd0  1   0    77   1920 1027  eric@eric-NUC ~
+0x05011021  1   1920 50   1920 1027  eric@eric-NUC ~
+

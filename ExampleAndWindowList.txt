@@ -1,0 +1,37 @@
+-- the debug_print command does only print anything to stdout
+-- if devilspie2 is run using the --debug option
+debug_print("Window Name: " .. get_window_name());
+debug_print("Application name: " .. get_application_name())
+
+-- I want my Xfce4-terminal to the right on the second screen of my two-monitor
+-- setup. (String comparison are case sensitive, please note this when
+-- creating rule scripts.)
+if (get_window_name() == "Terminal") then
+   -- x,y, xsize, ysize
+   set_window_geometry(1600, 300, 900, 700);
+end
+
+Window list w/ coordinates & window size:
+0x02200010  0 1769   67   113  1769 986  eric-NUC Firefox
+0x06600010  0 2156   1970 85   1905 1000 eric-NUC Inbox - Mozilla Thunderbird
+0x06c00007  2 2316   2837 186  528  366  eric-NUC Transmission
+0x06e007a0  0 2336   2227 75   1591 715  eric-NUC Finances.gnucash - Checking - GnuCash
+0x05600006  1 2422   138  143  1704 867  eric-NUC eric@eric-NUC ~
+0x0560003a  1 2422   2205 129  1504 912  eric-NUC eric@eric-NUC ~
+0x06a159ea  3 2289   2125 84   1642 971  eric-NUC devilspie2
+0x0480424e -1 1928   3840 0    1920 1053 eric-NUC Desktop
+0x04804252 -1 1928   0    54   1920 1053 eric-NUC Desktop
+0x02400085  3 23605  155  290  1405 563  eric-NUC *Unsaved Document 1
+
+0x02200010  0 1769   67   113  1769 986  eric-NUC TitanTV – Free Local TV Listings, Program Schedule, Show and Episode - Mozilla Firefox
+0x06600010  0 2156   1944 80   1905 1000 eric-NUC Inbox - Mozilla Thunderbird
+0x06c00007  2 2316   2837 186  528  366  eric-NUC Transmission
+0x06e007a0  0 2336   2227 75   1591 715  eric-NUC Finances.gnucash - Checking - GnuCash
+0x05600006  1 2422   138  143  1704 867  eric-NUC eric@eric-NUC ~
+0x0560003a  1 2422   2048 83   1776 987  eric-NUC eric@eric-NUC ~
+0x06a159ea  3 2289   2125 84   1642 971  eric-NUC devilspie2
+0x0480424e -1 1928   3840 0    1920 1053 eric-NUC Desktop
+0x04804252 -1 1928   0    54   1920 1053 eric-NUC Desktop
+0x02400085  3 23605  155  290  1405 563  eric-NUC *Unsaved Document 1
+0x05000007  1 29222  883  473  1063 500  eric-NUC System Monitor
+
